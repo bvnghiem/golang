@@ -1,0 +1,5 @@
+HOW TO RUN THIS BEEGO PROJECT IN DEVELOPMENT
+
+1. Install Beego to your GOPATH if it is not installed : go get github.com/astaxie/beego
+2. Open terminal and change working directory to golang/JOA
+3. Run following command: bee run
