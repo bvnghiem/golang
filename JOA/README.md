@@ -1,5 +1,9 @@
 # JOA
 Go project for JVM jstacks/jmaps output analysis.
 Developed using:
-- Beego: https://beego.me/docs/intro/
+- IDE: Microsoft Visual Studio Code
+- SCM: Github (https://github.com/bvnghiem/golang.git)
+- Web framework: Beego (https://beego.me/docs/intro/)
+- Database: To be done...
+- Front End: To be done...
 ...
