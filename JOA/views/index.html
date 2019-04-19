@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Beego</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+
+<body>
+  <header>
+    <h1>Welcome to Beego</h1>
+  </header>
+  <div>
+    <form method="post" action="/upload" enctype="multipart/form-data">
+      <input id="file" type="file" name="file">
+      <br/>
+      <br/>
+      <input id="upload" type="submit" value="Upload"/>
+    </form>
+  </div>
+  <div>
+    <p>File uploaded {{.Name}}</p>
+    <p>File size: {{.Size}}</p>
+  </div>
+  
+  <form method="POST" action="/process">
+    <input id="process" type="submit" value="Process"/>
+  </form>
+  <div class="backdrop"></div>
+</body>
+</html>
