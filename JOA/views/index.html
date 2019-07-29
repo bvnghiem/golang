@@ -2,13 +2,19 @@
 
 <html>
 <head>
-  <title>Beego</title>
+  <title>JOA</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 </head>
 
 <body>
   <header>
-    <h1>Welcome to Beego</h1>
+    <h1>Welcome to JOA</h1>
+    <script>
+      function processFile() {
+        
+        return false;
+      }
+    </script>
   </header>
   <div>
     <form method="post" action="/upload" enctype="multipart/form-data">
@@ -23,8 +29,8 @@
     <p>File size: {{.Size}}</p>
   </div>
   
-  <form method="POST" action="/process">
-    <input id="process" type="submit" value="Process"/>
+  <form method="post" action="/process">
+    <input id="processButton" type="submit" value="Process"/>
   </form>
   <div class="backdrop"></div>
 </body>
